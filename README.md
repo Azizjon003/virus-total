@@ -1,53 +1,91 @@
-# React + TypeScript + Tailwind CSS Project
+# VirusTotal URL Checker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) with TypeScript template and configured with Tailwind CSS.
+A modern, minimalist web application for checking URL safety using VirusTotal's database.
 
-## Available Scripts
+![Link Check App](https://via.placeholder.com/800x400?text=Link+Check+App)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 🔒 Check URLs for potential security threats
+- 🌙 Dark mode / Light mode toggle
+- 📱 Fully responsive across all devices
+- 🎨 Clean, minimalist UI with intuitive interactions
+- ⚡️ Fast, real-time scanning (simulated in demo version)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Design Highlights
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Modern Minimalism**: Clean, focused interface with generous whitespace
+- **Subtle Animations**: Smooth transitions and micro-interactions
+- **Accessibility**: WCAG-compliant with proper contrast and keyboard navigation
+- **Responsive Design**: Optimized for all screen sizes and devices
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14.0 or higher recommended)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/yourusername/virus-total.git
+cd virus-total
+```
 
-### `npm run eject`
+2. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+# or
+yarn install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+# or
+yarn start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-## Tailwind CSS Setup
+## Technologies Used
 
-This project uses Tailwind CSS for styling. The configuration is in the `tailwind.config.js` file and PostCSS configuration is in `postcss.config.js`.
+- React.js
+- TypeScript
+- CSS3 with custom properties (variables)
+- Modern JavaScript features (ES6+)
 
-- Tailwind directives are included in `src/index.css`
-- You can customize the Tailwind configuration in `tailwind.config.js`
+## Project Structure
 
-## Learn More
+```
+virus-total/
+├── public/
+├── src/
+│   ├── App.tsx         # Main application component
+│   ├── App.css         # Component styling
+│   ├── index.tsx       # Entry point
+│   ├── index.css       # Global styles
+│   └── ...
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Integration with the actual VirusTotal API
+- User authentication and history tracking
+- Extended URL analysis with detailed reports
+- Browser extension for instant checking
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Design inspiration from modern, minimalist UI trends
+- Icons from [Heroicons](https://heroicons.com/)
